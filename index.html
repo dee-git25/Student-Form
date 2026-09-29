@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Student Information Form</h1>
+        <p class="subtitle">Enter your details below</p>
+
+        <form id="studentForm">
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="rollNo">Roll No</label>
+            <input type="text" id="rollNo" name="rollNo" placeholder="Enter your roll number" required>
+
+            <label for="className">Class</label>
+            <input type="text" id="className" name="className" placeholder="Enter your class" required>
+
+            <label for="hobbies">Hobbies</label>
+            <input type="text" id="hobbies" name="hobbies" placeholder="Enter your hobbies" required>
+
+            <button type="submit">Submit</button>
+
+            <p id="message"></p>
+
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
